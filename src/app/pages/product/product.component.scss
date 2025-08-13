@@ -1,0 +1,33 @@
+.container{
+    height: 80%;
+    width: 30%;
+    background-color: gray;
+    color: wheat;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+.header{
+    text-align: center;
+}
+.selectBox{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.btn{
+    display: flex;
+    margin: 10px;
+    gap: 25px;
+    margin-left: 50px;
+    border-radius: 2px solid black
+    ;
+}
+.btncolor{
+    background-color: red;
+    width: 150px;
+    margin-left: 90px;
+}

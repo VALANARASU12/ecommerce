@@ -1,0 +1,38 @@
+.home { 
+    padding: 1rem;
+ }
+.grid {
+     display: flex; gap: 1rem;
+ }
+.card {
+    border: 1px solid #ddd;
+    padding: 1rem; width: 220px; 
+    border-radius: 6px;
+ }
+.thumb {
+    height: 120px;
+    border-radius: 6px;
+    margin-bottom: 0.6rem; 
+}
+.btn { 
+    display:inline-block; 
+    padding:0.4rem 0.7rem; 
+    background:#2b7; 
+    color:#fff; 
+    border-radius:4px; 
+    text-decoration:none;
+ }
+ .heading-section{
+    text-align: center;
+    margin-top: 20px;
+ }
+ p{
+    font-size: 20px;
+ }
+ .product{
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    cursor: pointer;
+ }

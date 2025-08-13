@@ -1,0 +1,30 @@
+.mat-dialog-container {
+  padding: 20px;
+}
+
+::ng-deep .mat-dialog-container {
+  height: 100%;
+  max-width: 300px !important;
+}
+.container{
+  background-color: grey;
+  color: antiquewhite;
+  padding-top: 20px;
+  
+}
+.quantity-control{
+  gap: 10px;
+  display: flex;
+
+}
+.quantity{
+  display: flex;
+  justify-content: space-around;
+}
+.final{
+  margin: 15px;
+  gap: 20px;
+}
+.checkoutbtn{
+ width: 250px;
+}

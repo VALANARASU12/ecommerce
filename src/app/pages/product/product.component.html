@@ -1,0 +1,24 @@
+<div class="container">
+<div *ngIf="product">
+  <div class="header">
+  <h2 >{{ product.name }}</h2>
+  <img [src]="selectedFlavor.image" alt="{{ selectedFlavor.name }}">
+  </div>
+  <mat-form-field class="selectBox" appearance="fill">
+  <mat-label>Sizes</mat-label>
+  <mat-select [(ngModel)]="selectedSize">
+     <mat-option *ngFor="let size of product.sizes" [value]="size">
+      {{ size }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+  <label>Selct your Faviorite Color</label>
+  <div class="btn">
+  <button *ngFor="let flavor of product.flavors"
+          (click)="changeFlavor(flavor)">
+    {{ flavor.name }}
+  </button>
+  </div>
+ <button class="btncolor" (click)="addToCart()">Add to Cart</button>
+</div>
+</div>
