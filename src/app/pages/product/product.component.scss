@@ -31,3 +31,14 @@
     width: 150px;
     margin-left: 90px;
 }
+.image-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.image-wrapper img {
+  mix-blend-mode: multiply; /* applies tint */
+  width: 200px;
+}
+img{
+ background-color: transparent;
+}

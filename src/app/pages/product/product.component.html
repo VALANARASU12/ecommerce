@@ -2,7 +2,7 @@
 <div *ngIf="product">
   <div class="header">
   <h2 >{{ product.name }}</h2>
-  <img [src]="selectedFlavor.image" alt="{{ selectedFlavor.name }}">
+  <img [src]="selectedFlavor.image" width="190px" height="150px" alt="{{ selectedFlavor.name }}">
   </div>
   <mat-form-field class="selectBox" appearance="fill">
   <mat-label>Sizes</mat-label>
@@ -14,7 +14,7 @@
 </mat-form-field>
   <label>Selct your Faviorite Color</label>
   <div class="btn">
-  <button *ngFor="let flavor of product.flavors"
+  <button *ngFor="let flavor of product.flavors" [style.background]="flavor.color"
           (click)="changeFlavor(flavor)">
     {{ flavor.name }}
   </button>

@@ -19,7 +19,7 @@
     </mat-select>
   </mat-form-field>
   <mat-label>Quantity</mat-label>
-  <div class="quantity">s
+  <div class="quantity">
   <div class="quantity-control">
     <button  (click)="decrease()">-</button>
     <span class="quantity">{{data.product.quantity}}</span>
@@ -32,6 +32,6 @@
 </mat-dialog-content>
 <mat-dialog-actions class="final" align="end">
   <button mat-flat-button class="checkoutbtn" (click)="checkout()">checkout</button>
-  <a mat-raised-button mat-dialog-close [routerLink]="['/billing']">View detailed cart</a>
+  <a mat-button  mat-dialog-close [routerLink]="['/billing']">View detailed cart</a>
 </mat-dialog-actions>
 </div>

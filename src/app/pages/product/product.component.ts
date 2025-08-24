@@ -3,10 +3,10 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { PRODUCTS} from '../../data/product';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { CartComponent } from '../../cart/cart.component';
 import { MatDialog } from '@angular/material/dialog';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
+import { CartComponent } from '../cart/cart.component';
 @Component({
   selector: 'app-product',
   standalone: true,
